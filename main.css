@@ -22,7 +22,7 @@ list-style: none;
     width: 160px;
     height: 500vh;
     background-color:white;
-    transition: left 0.5s; /* Transição suave ao abrir/fechar */
+    transition: left 0.5s;
     z-index: 1000;
     border-radius: 10px 10px;
     padding-top: 20px;
