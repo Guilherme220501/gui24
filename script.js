@@ -7,7 +7,7 @@ mobileMenu.addEventListener('click', () => {
 });
 // Função para abrir e fechar o menu lateral
 function toggleMenu() {
-    const sidebar = document.getElementById('background');
+    const sidebar = document.getElementById('back-ground');
     if (sidebar.style.left === '-250px') {
         sidebar.style.left = '0'; // Abre o menu
     } else {

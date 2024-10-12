@@ -39,20 +39,20 @@ list-style: none;
 }
 .back-ground ul li a:hover {
     background-color: blueviolet;
-    width: 130px;
+    width: 100px;
     border-radius: 10px 10px;
     box-shadow: 5px 5px 5px red;
     padding: 10px;
     color: white;
     text-decoration: none;
     display: block;
-    list-style-type: none;
     border-radius: 10px 10px;
     margin-bottom: 10px;
 }
+ul{list-style-type: none;text-align: left;}
 body{margin: auto;align-items: center;justify-content: center;text-align: center;background:linear-gradient(to left,white,orange,black);}
 h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-decoration: underline;color: white;}
-h2{font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;color: white;}
+h2{font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;color: rgb(0, 0, 0);}
 p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
 header{width: 300px;margin: auto;border-radius: 10px 10px;text-align: center;padding: 20px;justify-content: center;align-items: center;}
 section{width: 300px;margin: auto;border-radius: 10px 10px;padding: 20px;text-align: center;justify-content: center;align-items: center;}
@@ -65,5 +65,5 @@ thead{font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium',
 tbody{font-size: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: inherit;text-align: left;text-shadow: 6px;}
 tfoot{font-size: 20px;text-align: left;font-family: 'Times New Roman', Times, serif;font-style: inherit;text-shadow: 6px;}
 .summary:hover{transform: scale(1.05);transition: transform(0.9s);}
-.background:hover{transform: scale(1.05);transition: transform(0.5s);}
+.back-ground:hover{transform: scale(1.05);transition: transform(0.5s);}
 .image:hover{transition: transform(1.05);transform: scale(1.01);}
