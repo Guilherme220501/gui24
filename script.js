@@ -11,15 +11,6 @@ function atualizarRelogio() {
 setInterval(atualizarRelogio, 1000);
 atualizarRelogio();
 
-document.addEventListener('click', function(event) {
-    const sidebar = document.getElementById('back-ground');
-    const menuBtn = document.querySelector('.menu-btn');
-    
-    // Verifica se o clique foi fora do menu e do botão
-    if (!sidebar.contains(event.target) && !menuBtn.contains(event.target)) {
-      sidebar.style.left = '-250px'; // Fecha o menu
-    }
-  });
   
   function toggleMenu() {
     const sidebar = document.getElementById('back-ground');
