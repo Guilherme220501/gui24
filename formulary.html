@@ -8,20 +8,20 @@
     <title>Formulário</title>
 </head>
 <style>
-body{margin: auto;background: linear-gradient(white,black,white);text-align: center;justify-content: center;align-items:center;}
+body{background-color: aqua;margin: auto;text-align: center;justify-content: center;align-items:center;}
 h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-decoration: underline;color: white;}
-h2{font-size: 20px;font-style: inherit;font-family: Arial, Helvetica, sans-serif;text-shadow: 6px;color: white;}
+h2{font-size: 20px;font-style: inherit;font-family: Arial, Helvetica, sans-serif;text-shadow: 6px;color: rgb(0, 0, 0);}
 p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: initial;text-shadow: 6px;color: white;font-size: 15px;}
 summary{width: 100px;border-radius: 10px 10px;margin: auto;text-shadow: 6px;padding: 10px;}
 .summary:hover{transform: scale(1.05);transition: transform(0.3s);}
-form{align-items: center;margin: auto;text-align: center;justify-content: center;}
+form{align-items: center;text-align: center;justify-content: center;}
 fieldset{width: 300px;margin: auto;border-radius: 10px 10px;padding: 20px;background-color: beige;border: 3px solid white;box-shadow: 6px 6px 6px red;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;}
-label{padding: 10px;font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-align: left;color: black;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;}
+label{padding: 10px;font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-align: left;color: black;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: left;}
 input{width: 300px;border-radius: 10px 10px;margin: auto;text-align: left;text-shadow: 6px;font-size: 15px;padding: 10px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: oblique;color: black;background-color: aqua;border: 3px solid white;}
-.color1{width: 150px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: black;border: 3px solid white;box-shadow: 6px 6px 6px yellow;gap: 10px;}
-.color2{width: 150px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: blue;border: 3px solid white;box-shadow: 6px 6px 6px black;gap: 10px;}
-.color3{width: 150px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: orange;border: 3px solid white;box-shadow: 6px 6px 6px white;gap: 10px;}
-.color4{width: 150px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: blueviolet;border: 3px solid white;box-shadow: 6px 6px 6px yellow;gap: 10px;}
+.color1{width: 400px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: black;border: 3px solid white;box-shadow: 6px 6px 6px yellow;gap: 10px;}
+.color2{width: 450px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: blue;border: 3px solid white;box-shadow: 6px 6px 6px black;gap: 10px;}
+.color3{width: 600px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: orange;border: 3px solid white;box-shadow: 6px 6px 6px white;gap: 10px;}
+.color4{width: 800px;margin: auto;border-radius: 10px 10px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background-color: blueviolet;border: 3px solid white;box-shadow: 6px 6px 6px yellow;gap: 10px;}
 select{width: 150px;border-radius: 10px 10px;padding: 10px;margin: auto;background-color: black;border: 3px solid white;box-shadow: 3px 3px 3px yellow;color: yellow;font-size: 15px;font-style: oblique;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-shadow: 6px;}
 textarea{height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;padding:10px;background-color: antiquewhite;border: 6px solid red;box-shadow: 3px 3px 3px blue;color: black;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6p;}
 button{width: 250px;border-radius: 10px 10px;padding: 10px;margin: auto;background-color: blueviolet;color: white;border: 3px solid white;box-shadow: 3px 3px 3px yellow;font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: oblique;text-shadow: 6px;}
@@ -105,12 +105,12 @@ footer{width: 300px;margin: auto;padding: 10px;border-radius: 10px 10px;backgrou
     <label for="Master" style="color: white;font-size: 10px;">Master</label>
     <input type="checkbox" value="Master" name="experiência" >
     </div>
-    </details></div>
+    </details></div></div>
     <br>
     <h2><big>Qual o seu nível de conhecimento?</big></h2>
     <br>
     <div class="summary">
-    <div id="text"><details><summary>QUAL?</summary>
+    <div id="text"><details><summary style="background-color: white;border: 3px solid black;box-shadow: 4px 4px 4px ;">QUAL?</summary>
     <br>
     <div class="color3">
     <label for="Aprendiz" style="font-size: 10px;color: white;">Aprendiz</label>
@@ -149,7 +149,7 @@ footer{width: 300px;margin: auto;padding: 10px;border-radius: 10px 10px;backgrou
     <label for="Classe X" style="font-size: 10px;color:white;white-space:nowrap;">Classe X</label>
     <input type="checkbox" value="Classe X" name="social?">
     </div>
-    </details></div>
+    </details></div></div>
     <br>
     <h2><big>Qual o seu Signo?</big></h2>
     <br>
@@ -183,9 +183,10 @@ footer{width: 300px;margin: auto;padding: 10px;border-radius: 10px 10px;backgrou
     <br>
     </main>
     </fieldset>
+    <br>
     <nav>
         <div class="footer">
-        <footer><p>Retorne para minha página principal em <a href="index.html" target="_blank" rel="external" style="background-color: blue;color: white;border: 3px solid white;box-shadow: 3px 3px 3px white;">1ªPágina</a></p></footer></div>
+        <footer><p>Retorne para minha página principal em <a href="index.html" target="_blank" rel="external" style="background-color: blue;color: white;border: 3px solid white;box-shadow: 3px 3px 3px white;">1ªPágina</a></p></footer>
         </nav>
     </form>
     </details></div>

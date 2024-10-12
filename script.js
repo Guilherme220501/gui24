@@ -1,19 +1,5 @@
 function showAlert(message) {window.onload = function () {alert(message);};}
-const mobileMenu = document.getElementById('mobile-menu');
-const navMenu = document.querySelector('.menu');
 
-mobileMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
-// Função para abrir e fechar o menu lateral
-function toggleMenu() {
-    const sidebar = document.getElementById('back-ground');
-    if (sidebar.style.left === '-250px') {
-        sidebar.style.left = '0'; // Abre o menu
-    } else {
-        sidebar.style.left = '-250px'; // Fecha o menu
-    }
-}
 function atualizarRelogio() {
     const agora = new Date();
     const horas = String(agora.getHours()).padStart(2, '0');
@@ -22,6 +8,25 @@ function atualizarRelogio() {
     const horarioAtual = `${horas}:${minutos}:${segundos}`;
     document.getElementById('relogio').innerText = horarioAtual;
 }
-
 setInterval(atualizarRelogio, 1000);
 atualizarRelogio();
+
+document.addEventListener('click', function(event) {
+    const sidebar = document.getElementById('back-ground');
+    const menuBtn = document.querySelector('.menu-btn');
+    
+    // Verifica se o clique foi fora do menu e do botão
+    if (!sidebar.contains(event.target) && !menuBtn.contains(event.target)) {
+      sidebar.style.left = '-250px'; // Fecha o menu
+    }
+  });
+  
+  function toggleMenu() {
+    const sidebar = document.getElementById('back-ground');
+    
+    if (sidebar.style.left === '-250px' || sidebar.style.left === '') {
+      sidebar.style.left = '0'; // Abre o menu
+    } else {
+      sidebar.style.left = '-250px'; // Fecha o menu
+    }
+  }
