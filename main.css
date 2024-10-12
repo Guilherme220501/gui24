@@ -19,7 +19,7 @@ list-style: none;
     position: fixed;
     top: 0;
     left: -250px; /* Fora da tela inicialmente */
-    width: 160px;
+    width: 170px;
     height: 500vh;
     background-color:white;
     transition: left 0.5s;
@@ -38,24 +38,26 @@ list-style: none;
     cursor: pointer;
 }
 .back-ground ul li a:hover {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
     width: 100px;
     border-radius: 10px 10px;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px black;
     padding: 10px;
-    color: white;
+    color: red;
     text-decoration: none;
     display: block;
     border-radius: 10px 10px;
     margin-bottom: 10px;
 }
 ul{list-style-type: none;text-align: left;}
-body{margin: auto;align-items: center;justify-content: center;text-align: center;background:linear-gradient(to left,white,orange,black);}
+body{margin: auto;align-items: center;justify-content: center;text-align: center;background-color: lightskyblue;}
 h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-decoration: underline;color: white;}
 h2{font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;color: rgb(0, 0, 0);}
 p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
 header{width: 300px;margin: auto;border-radius: 10px 10px;text-align: center;padding: 20px;justify-content: center;align-items: center;}
-section{width: 300px;margin: auto;border-radius: 10px 10px;padding: 20px;text-align: center;justify-content: center;align-items: center;}
+section{width: 310px;margin: auto;border-radius: 10px 10px;padding: 20px;text-align: center;justify-content: center;align-items: center;}
 footer{width: 300px;border-radius: 10px 10px;margin: auto;text-align: center;padding: 20px;justify-content: center;align-items: center;}
 summary{width: 230px;margin: auto;border-radius: 10px 10px;padding: 10px;text-align: 6px;}
 dl{padding: 5px;}
